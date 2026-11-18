@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "brand-and-contacts",
+    "kind": "interactive",
+    "goal": "Il visitatore vede l'insegna VS Auto Noleggio e tutti i recapiti dell'azienda",
+    "requirementIndexes": [],
+    "acceptanceCriteriaIndexes": [],
+    "steps": [
+      "Apri il sito"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "VS Auto Noleggio"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "035 040 0940"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Via Enrico Fermi 10"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Aperto 24 ore su 24"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "vs.autonoleggio@gmail.com"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "vs.autonoleggio@pec.it"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "5RUO82D"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "04830720167"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Silva Gjoka e Bani Gjoka"
+      }
+    ]
+  }
+}

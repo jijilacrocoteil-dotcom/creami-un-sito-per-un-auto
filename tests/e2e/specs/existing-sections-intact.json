@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "existing-sections-intact",
+    "kind": "interactive",
+    "goal": "Verificare che le sezioni esistenti del sito continuino a funzionare",
+    "requirementIndexes": [
+      6
+    ],
+    "acceptanceCriteriaIndexes": [
+      7
+    ],
+    "steps": [
+      "Open the catalogue section",
+      "Open the contact section"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "Maserati Ghibli"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "035 040 0940"
+      }
+    ]
+  }
+}

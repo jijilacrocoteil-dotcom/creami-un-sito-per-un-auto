@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-18T15:10:36.123Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap button \"English\" in \"IT\"",
+        "target": {
+          "role": "button",
+          "name": "English",
+          "text": "EN",
+          "within": "IT"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "social-section-visible.e2e.ts::social-section-visible",
+      "targetId": "web",
+      "instructionDigest": "8b5ee0f85766f900d1052c9bb5a0190d7c43c90db929e60f4e83d7edc49eb8f5",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "caffeine-inference.chat",
+      "model": "deepseek-v4.1-flash"
+    },
+    "summary": "Tapped the \"English\" (EN) language button in the header; the site switched to English — nav now reads Home/Catalogue/Contact, headings \"Our Catalogue\", \"Follow Us on Social\", \"Contact & Information\", and the EN button shows pressed.",
+    "startPath": "/",
+    "endPath": "/",
+    "endAnchors": [
+      {
+        "role": "link",
+        "name": "Catalogue"
+      },
+      {
+        "role": "link",
+        "name": "Contact"
+      },
+      {
+        "role": "button",
+        "name": "Italiano",
+        "text": "IT"
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "text": "EN",
+        "states": [
+          "pressed"
+        ]
+      },
+      {
+        "role": "link",
+        "name": "Call now"
+      },
+      {
+        "role": "link",
+        "name": "Email us"
+      },
+      {
+        "role": "heading",
+        "name": "Our Catalogue"
+      },
+      {
+        "text": "These are only some of our cars."
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "link",
+        "name": "Catalogo"
+      },
+      {
+        "role": "link",
+        "name": "Contatti"
+      },
+      {
+        "role": "button",
+        "name": "Italiano",
+        "text": "IT",
+        "states": [
+          "pressed"
+        ]
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "text": "EN"
+      },
+      {
+        "text": "Noleggio Auto di LussoAperto 24 ore su 24"
+      },
+      {
+        "role": "link",
+        "name": "Chiama ora"
+      },
+      {
+        "role": "link",
+        "name": "Scrivici"
+      },
+      {
+        "role": "heading",
+        "name": "Il Nostro Catalogo"
+      }
+    ],
+    "endWaitMs": 10885,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "contatti-e-lingue",
+    "kind": "interactive",
+    "goal": "I contatti aziendali e il selettore lingua funzionano e il nome del sito è visibile",
+    "requirementIndexes": [],
+    "acceptanceCriteriaIndexes": [],
+    "steps": [
+      "Apri la sezione contatti",
+      "Passa alla lingua English",
+      "Torna alla lingua Italiano"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "035 040 0940"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "vsnoleggioauto.it"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "Contact"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "Contatti"
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "flows": {
+    "altre-auto-capannone": {
+      "plan": [
+        "2cda692f6e82ea49",
+        "a840a22af83942cc"
+      ],
+      "last": "passed"
+    },
+    "brand-and-contacts": {
+      "plan": [
+        "010a0d60ac63415c",
+        "0d6f3eb1ae454a91",
+        "11e779d41ff99fdc",
+        "17d3f731c95097a0",
+        "1af0857c77fb05f9",
+        "1ed57bc9cbcf5852",
+        "3e89a638ec4b2d08",
+        "4424d56356589527",
+        "49a1c84495e6a983",
+        "5ea58b9c976e4d1f",
+        "74a58257e1859e03",
+        "7a732846c468e9cd",
+        "85aa9153e8bf4a71",
+        "8b5be5fe6386c488",
+        "8bd103d6f4718f33",
+        "8c2566603a7a6067",
+        "8ca22d3ba662d08f",
+        "8df752230ed2105b",
+        "94b5de2554f66852",
+        "aaec954efbc958bb",
+        "b8412c6ee9a92c01",
+        "c486ef2781d9b177",
+        "ca3f846d08153fc5",
+        "cc745ad50bcdecf1",
+        "f93cbbb2a2e74c0e",
+        "fad8871d1f66ade8"
+      ],
+      "last": "passed"
+    },
+    "catalogo-e-preventivo": {
+      "plan": [
+        "2cda692f6e82ea49",
+        "3864550d6324a281",
+        "41febcc886f55231",
+        "43d07d056a1127ad",
+        "516d27c7c8abc33e",
+        "5bb6f62573ccfde4",
+        "779ae997f84fe2fb",
+        "8d64a2c9d9ea11b9",
+        "8f5ebfd50c3123d3",
+        "a971aefe6cace9e9",
+        "c0743f749400d648",
+        "c1a6cbe1f15d1be5",
+        "d9e77562504ee209",
+        "dcb6c0033d846d3b",
+        "e53b563c6bfa5134",
+        "e7d15f56ee7d2460"
+      ],
+      "last": "passed"
+    },
+    "catalogo-foto-auto": {
+      "plan": [
+        "1e2db8f0ba48a6d2",
+        "28e82423a1232aa1",
+        "5c3364c6ef82a855",
+        "851e1b6104fcb7bd",
+        "a23e138fde80285d",
+        "a5f947f5ecb4094f",
+        "af7afe03b50c049a",
+        "b30f5ba942905ac3",
+        "bf90e2c295bef7b9"
+      ],
+      "last": "passed"
+    },
+    "contatti-e-lingue": {
+      "plan": [
+        "0ca82443ca30d778",
+        "1b78a8a6b8850791",
+        "88e1edebf7fe5665",
+        "a8457c19e01634c9",
+        "b811b06a5582dac6"
+      ],
+      "last": "passed"
+    },
+    "existing-sections-intact": {
+      "plan": [
+        "235770ade7dafefd",
+        "5bb8eb95338225b2"
+      ],
+      "last": "passed"
+    },
+    "language-switch": {
+      "plan": [
+        "20b33a16bf6041be",
+        "461b373d0f20ee6e",
+        "812558298765f903",
+        "ab8fbed5a871d15c",
+        "e3aad4b84bd63b98"
+      ],
+      "last": "passed"
+    },
+    "lingua-araba": {
+      "plan": [
+        "613ea3233b0de280",
+        "eaf648c3f557ca7a"
+      ],
+      "last": "passed"
+    },
+    "social-section-visible": {
+      "plan": [
+        "330e848a1e37c415",
+        "495b13e768264ef0",
+        "65c0862c711120a3",
+        "6d131985ddb6fb4b",
+        "71b331163a2457fb",
+        "845d930d54ed1f6c",
+        "8b6cf0bceb66fedc",
+        "91a8758e55f44dc0",
+        "9b2ef846cedcdda2",
+        "a29b736bcb12929e",
+        "b4ae9b655d90c075",
+        "cc481b2c289a18a4",
+        "e9a15f8e15d0eb03"
+      ],
+      "last": "passed"
+    }
+  },
+  "order": [
+    "brand-and-contacts",
+    "language-switch",
+    "catalogo-e-preventivo",
+    "altre-auto-capannone",
+    "lingua-araba",
+    "catalogo-foto-auto",
+    "contatti-e-lingue",
+    "social-section-visible",
+    "existing-sections-intact"
+  ]
+}

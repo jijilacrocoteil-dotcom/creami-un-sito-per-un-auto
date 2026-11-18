@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-18T14:04:34.564Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap button \"العربية\" in \"IT\"",
+        "target": {
+          "role": "button",
+          "name": "العربية",
+          "text": "AR",
+          "within": "IT"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "language-switch.e2e.ts::language-switch",
+      "targetId": "web",
+      "instructionDigest": "f9f4a002e285fc978566af9673312f98cfd5335c0a8a90ccfafb384887abd874",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "caffeine-inference.chat",
+      "model": "deepseek-v4.1-flash"
+    },
+    "summary": "Tapped the \"العربية\" (AR) language button in the header. The site switched to Arabic: AR is now pressed, nav reads \"الرئيسية\"/\"اتصل بنا\", headings read \"الاتصال والمعلومات\"/\"بيانات الشركة\", and the footer reads \"© 2026 VS Auto Noleggio — جميع الحقوق محفوظة\".",
+    "startPath": "/",
+    "endPath": "/",
+    "endAnchors": [
+      {
+        "role": "link",
+        "name": "الرئيسية"
+      },
+      {
+        "role": "link",
+        "name": "اتصل بنا"
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "text": "EN"
+      },
+      {
+        "role": "button",
+        "name": "العربية",
+        "text": "AR",
+        "states": [
+          "pressed"
+        ]
+      },
+      {
+        "text": "تأجير سيارات فاخرةمفتوح 24 ساعة طوال اليوم"
+      },
+      {
+        "role": "link",
+        "name": "اتصل الآن"
+      },
+      {
+        "role": "link",
+        "name": "راسلنا"
+      },
+      {
+        "role": "heading",
+        "name": "الاتصال والمعلومات"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "link",
+        "name": "Home"
+      },
+      {
+        "role": "link",
+        "name": "Contact"
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "text": "EN",
+        "states": [
+          "pressed"
+        ]
+      },
+      {
+        "role": "button",
+        "name": "العربية",
+        "text": "AR"
+      },
+      {
+        "role": "link",
+        "name": "Call now"
+      },
+      {
+        "role": "link",
+        "name": "Email us"
+      },
+      {
+        "role": "heading",
+        "name": "Contact & Information"
+      },
+      {
+        "text": "We are at your disposal every day, at any hour. Get in touch for any information."
+      }
+    ],
+    "endWaitMs": 10758,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "catalogo-foto-auto",
+    "kind": "interactive",
+    "goal": "Il catalogo mostra una fotografia per ciascuna delle cinque auto nominate, abbinata al nome della vettura, e le foto restano visibili dopo un ricaricamento",
+    "requirementIndexes": [],
+    "acceptanceCriteriaIndexes": [],
+    "steps": [
+      "Apri il catalogo",
+      "Ricarica la pagina",
+      "Apri il catalogo"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "Maserati Ghibli"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Mercedes-AMG GT S"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Audi RS6"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Maserati Levante"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Mercedes GLA 45 S"
+      },
+      {
+        "afterStep": 0,
+        "expectNoText": "Trascina per ruotare"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "VS Auto Noleggio"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "Maserati Ghibli"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "Mercedes GLA 45 S"
+      }
+    ]
+  }
+}

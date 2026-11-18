@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "social-section-visible",
+    "kind": "interactive",
+    "goal": "Trovare la sezione social con le due voci Instagram e TikTok e i relativi handle",
+    "requirementIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "acceptanceCriteriaIndexes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "steps": [
+      "Open the social section",
+      "Switch the site language to English",
+      "Switch the site language back to Italiano"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "vs.autonoleggio"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "vs.auto.noleggio"
+      },
+      {
+        "afterStep": 0,
+        "expectRole": {
+          "role": "link",
+          "name": "vs.autonoleggio"
+        }
+      },
+      {
+        "afterStep": 0,
+        "expectRole": {
+          "role": "link",
+          "name": "vs.auto.noleggio"
+        }
+      },
+      {
+        "afterStep": 1,
+        "expectText": "vs.autonoleggio"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "vs.auto.noleggio"
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-18T14:04:34.562Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap button \"English\" in \"IT\"",
+        "target": {
+          "role": "button",
+          "name": "English",
+          "text": "EN",
+          "within": "IT"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "language-switch.e2e.ts::language-switch",
+      "targetId": "web",
+      "instructionDigest": "77390f2cdc5a41ba6bcad081986eafb0759c1dd16bf0c98a6f9839a8561f10b2",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "caffeine-inference.chat",
+      "model": "deepseek-v4.1-flash"
+    },
+    "summary": "Tapped the \"English\" (EN) language button in the header. The site switched to English: EN is now pressed, nav shows \"Contact\", headings read \"Contact & Information\" / \"Company Details\", and the footer reads \"© 2026 VS Auto Noleggio — All rights reserved\".",
+    "startPath": "/",
+    "endPath": "/",
+    "endAnchors": [
+      {
+        "role": "link",
+        "name": "Contact"
+      },
+      {
+        "role": "button",
+        "name": "Italiano",
+        "text": "IT"
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "text": "EN",
+        "states": [
+          "pressed"
+        ]
+      },
+      {
+        "role": "link",
+        "name": "Call now"
+      },
+      {
+        "role": "link",
+        "name": "Email us"
+      },
+      {
+        "role": "heading",
+        "name": "Contact & Information"
+      },
+      {
+        "text": "We are at your disposal every day, at any hour. Get in touch for any information."
+      },
+      {
+        "text": "Address"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "link",
+        "name": "Contatti"
+      },
+      {
+        "role": "button",
+        "name": "Italiano",
+        "text": "IT",
+        "states": [
+          "pressed"
+        ]
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "text": "EN"
+      },
+      {
+        "text": "Noleggio Auto di LussoAperto 24 ore su 24"
+      },
+      {
+        "role": "link",
+        "name": "Chiama ora"
+      },
+      {
+        "role": "link",
+        "name": "Scrivici"
+      },
+      {
+        "role": "heading",
+        "name": "Contatti e Informazioni"
+      },
+      {
+        "text": "Siamo a tua disposizione tutti i giorni, a qualsiasi ora. Contattaci per qualsiasi informazione."
+      }
+    ],
+    "endWaitMs": 10811,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

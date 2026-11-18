@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "catalogo-e-preventivo",
+    "kind": "interactive",
+    "goal": "Aprire il catalogo, vedere le cinque auto e arrivare ai contatti aziendali dal bottone Richiedi preventivo",
+    "requirementIndexes": [],
+    "acceptanceCriteriaIndexes": [],
+    "steps": [
+      "Apri il catalogo dalla voce Catalogo nell'header",
+      "Scorri fino alla scheda della Maserati Ghibli",
+      "Premi Richiedi preventivo sotto la Maserati Ghibli"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "Catalogo"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Maserati Ghibli"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Mercedes-AMG GT S"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Audi RS6"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Maserati Levante"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "Mercedes GLA 45 S"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "solo alcune delle nostre auto"
+      },
+      {
+        "afterStep": 0,
+        "expectText": "vsnoleggioauto.it"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "Richiedi preventivo"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "035 040 0940"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "vs.autonoleggio@gmail.com"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "Via Enrico Fermi 10"
+      }
+    ]
+  }
+}

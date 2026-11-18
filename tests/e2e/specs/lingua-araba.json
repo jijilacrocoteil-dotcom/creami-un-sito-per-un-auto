@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "lingua-araba",
+    "kind": "interactive",
+    "goal": "Cambiare lingua in arabo e vedere i testi del catalogo aggiornati",
+    "requirementIndexes": [],
+    "acceptanceCriteriaIndexes": [],
+    "steps": [
+      "Apri il catalogo dalla voce Catalogo nell'header",
+      "Cambia la lingua in AR"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "Catalogo"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "كتالوجنا"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "اطلب عرض سعر"
+      }
+    ]
+  }
+}

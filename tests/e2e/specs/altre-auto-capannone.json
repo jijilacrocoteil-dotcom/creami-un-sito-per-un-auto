@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "altre-auto-capannone",
+    "kind": "interactive",
+    "goal": "Leggere il messaggio sulle altre auto e l'invito a visitare il capannone",
+    "requirementIndexes": [],
+    "acceptanceCriteriaIndexes": [],
+    "steps": [
+      "Apri il catalogo dalla voce Catalogo nell'header",
+      "Scorri fino al messaggio sulle altre auto"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "Catalogo"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "capannone"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "vendita"
+      }
+    ]
+  }
+}

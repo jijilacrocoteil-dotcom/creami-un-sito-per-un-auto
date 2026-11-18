@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "trace-1",
+  "createdAt": "2026-11-18T15:10:36.125Z",
+  "payload": {
+    "actions": [
+      {
+        "name": "tap",
+        "summary": "tap button \"Italiano\" in \"IT\"",
+        "target": {
+          "role": "button",
+          "name": "Italiano",
+          "text": "IT",
+          "within": "IT"
+        }
+      }
+    ],
+    "executor": {
+      "name": "e2e-default-agent",
+      "version": "2"
+    },
+    "recordedFor": {
+      "testId": "social-section-visible.e2e.ts::social-section-visible",
+      "targetId": "web",
+      "instructionDigest": "08d9d9b276ee167f554566c308d4b790ba9106fce60a171ef4edc29165d6238a",
+      "paramsDigest": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "callIndex": 0,
+      "agent": "default"
+    },
+    "recordedBy": {
+      "provider": "caffeine-inference.chat",
+      "model": "deepseek-v4.1-flash"
+    },
+    "summary": "Tapped the \"Italiano\" (IT) language button in the header; the site switched back to Italian — nav reads Home/Catalogo/Contatti, headings \"Il Nostro Catalogo\", \"Seguici sui Social\", \"Contatti e Informazioni\", and the IT button shows pressed.",
+    "startPath": "/",
+    "endPath": "/",
+    "endAnchors": [
+      {
+        "role": "link",
+        "name": "Catalogo"
+      },
+      {
+        "role": "link",
+        "name": "Contatti"
+      },
+      {
+        "role": "button",
+        "name": "Italiano",
+        "text": "IT",
+        "states": [
+          "pressed"
+        ]
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "text": "EN"
+      },
+      {
+        "text": "Noleggio Auto di LussoAperto 24 ore su 24"
+      },
+      {
+        "role": "link",
+        "name": "Chiama ora"
+      },
+      {
+        "role": "link",
+        "name": "Scrivici"
+      },
+      {
+        "role": "heading",
+        "name": "Il Nostro Catalogo"
+      }
+    ],
+    "goneAnchors": [
+      {
+        "role": "link",
+        "name": "Catalogue"
+      },
+      {
+        "role": "link",
+        "name": "Contact"
+      },
+      {
+        "role": "button",
+        "name": "Italiano",
+        "text": "IT"
+      },
+      {
+        "role": "button",
+        "name": "English",
+        "text": "EN",
+        "states": [
+          "pressed"
+        ]
+      },
+      {
+        "role": "link",
+        "name": "Call now"
+      },
+      {
+        "role": "link",
+        "name": "Email us"
+      },
+      {
+        "role": "heading",
+        "name": "Our Catalogue"
+      },
+      {
+        "text": "These are only some of our cars."
+      }
+    ],
+    "endWaitMs": 10879,
+    "keyedBy": {
+      "cacheSchema": "trace-1",
+      "policyVersion": "conservative/6",
+      "project": "403fcccf39e2650a7e389bda5a9246bfe8c725769a98b3a749be67a096c16423",
+      "platform": "web",
+      "engineName": "web",
+      "engineSpiVersion": 1,
+      "appIdentity": "aec5acc8a8d7ba14d388c35095196d67ae7ad7199ff1168a3230addcf190cf8d",
+      "agentContextDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

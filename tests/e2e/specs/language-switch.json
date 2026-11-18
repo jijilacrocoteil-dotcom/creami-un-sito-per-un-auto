@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "spec": {
+    "id": "language-switch",
+    "kind": "interactive",
+    "goal": "Il visitatore cambia la lingua del sito e la scelta resta attiva",
+    "requirementIndexes": [],
+    "acceptanceCriteriaIndexes": [],
+    "steps": [
+      "Apri il sito",
+      "Scegli la lingua English",
+      "Scegli la lingua العربية"
+    ],
+    "checks": [
+      {
+        "afterStep": 0,
+        "expectText": "VS Auto Noleggio"
+      },
+      {
+        "afterStep": 1,
+        "expectText": "Open 24 hours a day"
+      },
+      {
+        "afterStep": 2,
+        "expectText": "مفتوح 24 ساعة"
+      }
+    ]
+  }
+}

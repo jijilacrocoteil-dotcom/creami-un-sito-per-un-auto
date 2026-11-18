@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "flows": {
+    "altre-auto-capannone": {
+      "flowId": "altre-auto-capannone",
+      "specDigest": "fe0a5b22769682a5a95f20a47d65ca0ed64cd0d3438b63c365fd7e16d8d9c92c",
+      "status": "recorded",
+      "recordedAt": "2026-11-18T14:21:46.139Z",
+      "recordedBy": "deepseek-v4.1-flash",
+      "entries": [],
+      "noChangeSteps": [
+        0,
+        1
+      ],
+      "ranAfter": [
+        "brand-and-contacts",
+        "catalogo-e-preventivo",
+        "language-switch"
+      ],
+      "ranWith": [
+        "brand-and-contacts",
+        "catalogo-e-preventivo",
+        "language-switch"
+      ],
+      "passedTree": "2a3aabccf430e63fc237bcf3740a7707c6cb866d",
+      "visitedPaths": [
+        "/"
+      ],
+      "readOnly": true
+    },
+    "brand-and-contacts": {
+      "flowId": "brand-and-contacts",
+      "specDigest": "d119524df135fa39fc8173acf6b5aba63b6674ebc0facbef279df31de7252202",
+      "status": "recorded",
+      "recordedAt": "2026-11-18T14:05:11.618Z",
+      "recordedBy": "deepseek-v4.1-flash",
+      "entries": [],
+      "noChangeSteps": [
+        0
+      ],
+      "ranAfter": [],
+      "ranWith": [],
+      "passedTree": "2a3aabccf430e63fc237bcf3740a7707c6cb866d",
+      "visitedPaths": [
+        "/"
+      ],
+      "readOnly": true
+    },
+    "catalogo-e-preventivo": {
+      "flowId": "catalogo-e-preventivo",
+      "specDigest": "e02e6402a12e34a81fc9021dd0ade85d6e98205297bf9f37589aafa17cf46199",
+      "status": "recorded",
+      "recordedAt": "2026-11-18T14:21:46.138Z",
+      "recordedBy": "deepseek-v4.1-flash",
+      "entries": [],
+      "noChangeSteps": [
+        0,
+        1,
+        2
+      ],
+      "ranAfter": [
+        "brand-and-contacts",
+        "language-switch"
+      ],
+      "ranWith": [
+        "brand-and-contacts",
+        "language-switch"
+      ],
+      "passedTree": "2a3aabccf430e63fc237bcf3740a7707c6cb866d",
+      "visitedPaths": [
+        "/"
+      ],
+      "readOnly": true
+    },
+    "catalogo-foto-auto": {
+      "flowId": "catalogo-foto-auto",
+      "specDigest": "d5ea87283277c5bec811a11d22d89aeadcbeb746b8edb079e01e4a1913575291",
+      "status": "recorded",
+      "recordedAt": "2026-11-18T15:04:16.096Z",
+      "recordedBy": "deepseek-v4.1-flash",
+      "entries": [],
+      "noChangeSteps": [
+        0,
+        1,
+        2
+      ],
+      "ranAfter": [
+        "altre-auto-capannone",
+        "brand-and-contacts",
+        "catalogo-e-preventivo",
+        "language-switch",
+        "lingua-araba"
+      ],
+      "ranWith": [
+        "altre-auto-capannone",
+        "brand-and-contacts",
+        "catalogo-e-preventivo",
+        "language-switch",
+        "lingua-araba"
+      ],
+      "passedTree": "2a3aabccf430e63fc237bcf3740a7707c6cb866d",
+      "visitedPaths": [
+        "/"
+      ],
+      "readOnly": true
+    },
+    "contatti-e-lingue": {
+      "flowId": "contatti-e-lingue",
+      "specDigest": "0bafb62b21ee4cf250932535f3ae3825f279c591734a2d7b9d925c4e6e2edf23",
+      "status": "recorded",
+      "recordedAt": "2026-11-18T15:04:16.097Z",
+      "recordedBy": "deepseek-v4.1-flash",
+      "entries": [
+        "74dc2e124044d4cbfbd8fe05de08c3e0677006d74a69875919c82be8910a24f0.json",
+        "3da029c3d4aba84b123fa64c354803ea9f317918502a463fc0c17f23716a75a4.json"
+      ],
+      "noChangeSteps": [
+        0
+      ],
+      "ranAfter": [
+        "altre-auto-capannone",
+        "brand-and-contacts",
+        "catalogo-e-preventivo",
+        "catalogo-foto-auto",
+        "language-switch",
+        "lingua-araba"
+      ],
+      "ranWith": [
+        "altre-auto-capannone",
+        "brand-and-contacts",
+        "catalogo-e-preventivo",
+        "catalogo-foto-auto",
+        "language-switch",
+        "lingua-araba"
+      ],
+      "passedTree": "2a3aabccf430e63fc237bcf3740a7707c6cb866d",
+      "visitedPaths": [
+        "/"
+      ],
+      "readOnly": true
+    },
+    "existing-sections-intact": {
+      "flowId": "existing-sections-intact",
+      "specDigest": "e1b4e716a4547ff91e624ea91e4de37ed5cd8773713eac0d2619ded1bc5e32b6",
+      "status": "recorded",
+      "recordedAt": "2026-11-18T15:10:46.845Z",
+      "recordedBy": "deepseek-v4.1-flash",
+      "entries": [],
+      "noChangeSteps": [
+        0,
+        1
+      ],
+      "ranAfter": [
+        "social-section-visible"
+      ],
+      "ranWith": [
+        "social-section-visible"
+      ],
+      "readOnly": true
+    },
+    "language-switch": {
+      "flowId": "language-switch",
+      "specDigest": "c464e8218ccb081e20afc6773002f8649e5fa5a3fbd7b66751af971b99df4645",
+      "status": "recorded",
+      "recordedAt": "2026-11-18T14:04:34.623Z",
+      "recordedBy": "deepseek-v4.1-flash",
+      "entries": [
+        "42e1b9db7dfe715833bba09648370fef7bf0eb96bf0110321cb26e7e3e3b0cb6.json",
+        "32206b1df0ddf84a44556115eaaf04c87f737872a84ee8792711cc05fbf877f5.json"
+      ],
+      "noChangeSteps": [
+        0
+      ],
+      "ranAfter": [
+        "brand-and-contacts"
+      ],
+      "ranWith": [
+        "brand-and-contacts"
+      ],
+      "passedTree": "2a3aabccf430e63fc237bcf3740a7707c6cb866d",
+      "visitedPaths": [
+        "/"
+      ],
+      "readOnly": true
+    },
+    "lingua-araba": {
+      "flowId": "lingua-araba",
+      "specDigest": "9a9931582b85dba2b3959d9951f97512f700bc127824bc44b71f22e1de393c1d",
+      "status": "recorded",
+      "recordedAt": "2026-11-18T14:23:00.071Z",
+      "recordedBy": "deepseek-v4.1-flash",
+      "entries": [
+        "902a1dd9c50f83dda5978c1ea2ac7997c780dcc9aa93053616a19f541d84b1de.json"
+      ],
+      "noChangeSteps": [
+        0
+      ],
+      "ranAfter": [
+        "altre-auto-capannone",
+        "brand-and-contacts",
+        "catalogo-e-preventivo",
+        "language-switch"
+      ],
+      "ranWith": [
+        "altre-auto-capannone",
+        "brand-and-contacts",
+        "catalogo-e-preventivo",
+        "language-switch"
+      ],
+      "passedTree": "2a3aabccf430e63fc237bcf3740a7707c6cb866d",
+      "visitedPaths": [
+        "/"
+      ],
+      "readOnly": true
+    },
+    "social-section-visible": {
+      "flowId": "social-section-visible",
+      "specDigest": "b4b4897148a8970e76858271132c78b5b0030a372dace72da6e32a282fb1af43",
+      "status": "recorded",
+      "recordedAt": "2026-11-18T15:10:46.845Z",
+      "recordedBy": "deepseek-v4.1-flash",
+      "entries": [
+        "07b49d06140ad5e4c144586b5ac52061f2b2b764a07f8bd044f3f5dacff81aec.json",
+        "65507bfb6b859a48dfa07ce9e1bcb7d3685b3850b2fe5d5ab4b0719c54d054ef.json"
+      ],
+      "noChangeSteps": [
+        0
+      ],
+      "ranAfter": [],
+      "ranWith": [],
+      "readOnly": true
+    }
+  }
+}
